@@ -1,8 +1,12 @@
 body
 {
-    /* Background pattern from Toptal Subtle Patterns */
-    background-image: url("img/hexellence.png");
+    background: url("img/tlo.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 #container
@@ -10,12 +14,11 @@ body
     background-color: white;
     width: 300px;
     padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-    -moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-    box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 input[type=text],
@@ -30,7 +33,7 @@ input[type=password]
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 input[type=text]:focus,
