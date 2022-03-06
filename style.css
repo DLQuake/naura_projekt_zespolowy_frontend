@@ -74,39 +74,3 @@ input[type=submit]:hover
 {
     background-color: #37b93d;
 }
-
-input::-webkit-input-placeholder
-{
-    color: #999;
-}
-input:focus::-webkit-input-placeholder
-{
-    color: #428C42;
-}
-/* Firefox < 19 */
-input:-moz-placeholder
-{
-    color: #999;
-}
-input:focus:-moz-placeholder
-{
-    color: #428C42;
-}
-/* Firefox > 19 */
-input::-moz-placeholder
-{
-    color: #999;
-}
-input:focus::-moz-placeholder
-{
-    color: #428C42;
-}
-/* Internet Explorer 10 */
-input:-ms-input-placeholder
-{
-    color: #999;
-}
-input:focus:-ms-input-placeholder
-{
-    color: #428C42;
-}
