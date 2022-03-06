@@ -1,6 +1,7 @@
 body
 {
-    background-color: #858585;
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("img/hexellence.png");
     font-size: 20px;
 }
 
