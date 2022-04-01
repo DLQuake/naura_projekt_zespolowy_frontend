@@ -63,6 +63,30 @@ h1 a {
   background-color: #25a411;
 }
 
+/* ! POCZATEK - EKRAN STRONY GLOWNEJ */
+h2 {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+
+.FlexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 480px;
+  flex-direction: row;
+}
+
+.FlexContainer div {
+  width: 400px;
+  height: 400px;
+  margin: 100px;
+  background-color: #ffffff;
+}
+/* ! KONIEC - EKRAN STRONY GLOWNEJ */
 
 /* ! POCZATEK - EKRAN LOGOWANIA */
 #logowanie {
@@ -187,7 +211,6 @@ input[type="submit"]:hover {
   background-color: #37b93d;
 }
 /* ! KONIEC - EKRAN REJESTRACJI */
-
 
 /* ! POCZATEK - EKRAN KONTAKTU */
 #kontakt {
