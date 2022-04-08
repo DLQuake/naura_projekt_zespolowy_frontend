@@ -1,8 +1,10 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import "./css/Pracownik.css";
 import "./css/Gospodarz.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Stronaglowna from "./components/CzescGlowna/Stronaglowna";
 import Kontakt from "./components/CzescGlowna/Kontakt";
 import Login from "./components/CzescGlowna/Login";
