@@ -1,0 +1,142 @@
+/* ! POCZATEK PANELU PRACOWNIKA */
+
+#panel {
+  width: 400px;
+  height: 850px;
+  background-color: #ffffff;
+  color: #ffffff;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+#panel_logo {
+  border-radius: 10px;
+  background-color: #28a228;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+img {
+  float: left;
+  margin-left: 10px;
+  height: 50px;
+}
+
+#panel_menu {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20pxzz;
+  padding: 15px;
+}
+
+.menu_pracownik {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+  min-height: 38px;
+  line-height: 200%;
+}
+
+.menu_pracownik > li {
+  margin-bottom: 104px;
+}
+
+.menu_pracownik a {
+  color: #ffffff;
+  background-color: #2db82d;
+  text-decoration: none;
+  border-radius: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu_pracownik a:hover {
+  background-color: #1ca71c;
+}
+
+/* ! KONIEC PANELU PRACOWNIKA */
+
+/* ! POCZATEK GŁOWNEJ CZESCI STRONY */
+
+#czescglownaPracownik {
+  width: 1199px;
+  height: 850px;
+  position: absolute;
+  top: 40px;
+  left: 610px;
+  z-index: -1;
+}
+
+.opcje {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 198px;
+  grid-row-gap: 0px;
+}
+
+.Pracownik_opcja1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.Pracownik_opcja2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.Pracownik_opcja3 {
+  bottom: 0px;
+  background-color: #ffffff;
+  width: 1199px;
+  height: 325px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.Pracownik_opcja1,
+.Pracownik_opcja2 {
+  background-color: #ffffff;
+  width: 500px;
+  height: 325px;
+  border-radius: 20px;
+}
+
+#tytul_opcji {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+#zawartoscOpcji {
+  background-color: #6eba63;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+#zawartoscOpcji > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#zawartoscOpcji > ul > li {
+  margin-bottom: 20px;
+}
+
+#pokazWiecej a {
+  text-decoration: none;
+  color: black;
+}
+#pokazWiecej a:hover {
+  color: gray;
+}
+/* ! KONIEC GŁOWNEJ CZESCI STRONY */
