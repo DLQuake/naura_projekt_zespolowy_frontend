@@ -1,5 +1,5 @@
 body {
-  background: url("./img/tlo_czesc_glowna.jpg") no-repeat center center fixed;
+  background: url("/src/components/img/tlo_czesc_glowna.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,14 +46,13 @@ h1 a {
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
+  width: 300px;
 }
 
 .menu a {
   color: #ffffff;
   background-color: #36b522;
   text-decoration: none;
-  padding-right: 80px;
-  padding-left: 80px;
   border-radius: 80px;
   display: flex;
   justify-content: center;

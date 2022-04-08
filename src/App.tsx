@@ -1,10 +1,19 @@
 import React from "react";
 import "./App.css";
+import "./css/Pracownik.css";
+import "./css/Gospodarz.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Stronaglowna from "./components/Stronaglowna";
-import Kontakt from "./components/Kontakt";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Stronaglowna from "./components/CzescGlowna/Stronaglowna";
+import Kontakt from "./components/CzescGlowna/Kontakt";
+import Login from "./components/CzescGlowna/Login";
+import Register from "./components/CzescGlowna/Register";
+import Pracownik from "./components/Pracownik/Pracownik";
+import Gospodarz from "./components/Gospodarz/Gospodarz";
+import TwojeKonto from "./components/Gospodarz/TwojeKonto";
+import Pracownicy from "./components/Gospodarz/Pracownicy";
+import ZadaniaGospodarz from "./components/Gospodarz/ZadaniaGospodarz";
+import ZadaniaPracownik from "./components/Pracownik/ZadaniaPracownik";
+
 
 function App() {
   return (
@@ -14,6 +23,14 @@ function App() {
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+
+        <Route path="/gospodarz" element={<Gospodarz />} />
+        <Route path="/twojekonto" element={<TwojeKonto />} />
+        <Route path="/pracownicy" element={<Pracownicy />} />
+        <Route path="/zadaniaGospodarz" element={<ZadaniaGospodarz />} />
+
+        <Route path="/pracownik" element={<Pracownik />} />
+        <Route path="/zadaniaPracownik" element={<ZadaniaPracownik />} />
       </Routes>
     </Router>
   );
