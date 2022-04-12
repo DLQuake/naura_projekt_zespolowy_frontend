@@ -44,7 +44,7 @@ function Pracownik() {
                             <li>ipsum</li>
                         </ul>
                     </div>
-                    <div id="pokazWiecej"><Link to="/zadaniaPracownik">Pokaż więcej</Link></div>
+                    <div id="pokazWiecej"><Link to="/raporty">Pokaż więcej</Link></div>
                 </div >
 			</main >
 		</div >
