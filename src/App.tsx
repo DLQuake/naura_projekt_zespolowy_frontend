@@ -17,6 +17,7 @@ import ZadaniaGospodarz from "./components/Gospodarz/ZadaniaGospodarz";
 
 import Pracownik from "./components/Pracownik/Pracownik";
 import ZadaniaPracownik from "./components/Pracownik/ZadaniaPracownik";
+import Raporty from "./components/Pracownik/Raporty";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
         <Route path="/pracownik" element={<Pracownik />} />
         <Route path="/zadaniaPracownik" element={<ZadaniaPracownik />} />
+        <Route path="/raporty" element={<Raporty />} />
       </Routes>
     </Router>
   );

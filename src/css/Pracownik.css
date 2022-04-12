@@ -140,3 +140,12 @@ img {
   color: gray;
 }
 /* ! KONIEC GŁOWNEJ CZESCI STRONY */
+
+
+.zadania_pracownik, .raporty_pracownik {
+  width: 1199px;
+  height: 850px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+}

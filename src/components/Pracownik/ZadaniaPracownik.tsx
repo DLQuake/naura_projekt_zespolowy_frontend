@@ -5,7 +5,7 @@ function ZadaniaPracownik() {
         <div className="App">
             <AsidePracownik></AsidePracownik>
             <main id="czescglownaPracownik">
-                <div className="twojekonto">
+                <div className="zadania_pracownik">
                     <h1>Zadania</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam

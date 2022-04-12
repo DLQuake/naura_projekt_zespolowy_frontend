@@ -19,7 +19,7 @@ function Pracownik() {
                                 <li>ipsum</li>
                             </ul>
                         </div>
-                        <div id="pokazWiecej"><Link to="/Zadania">Pokaż więcej</Link></div>
+                        <div id="pokazWiecej"><Link to="/zadaniaPracownik">Pokaż więcej</Link></div>
                     </div>
                     <div className="Pracownik_opcja2">
                         <div id="tytul_opcji">Zakończone zadania</div>
@@ -31,7 +31,7 @@ function Pracownik() {
                                 <li>ipsum</li>
                             </ul>
                         </div>
-                        <div id="pokazWiecej"><Link to="/Zadania">Pokaż więcej</Link></div>
+                        <div id="pokazWiecej"><Link to="/zadaniaPracownik">Pokaż więcej</Link></div>
                     </div>
                 </div>
                 <div className="Pracownik_opcja3">
@@ -44,7 +44,7 @@ function Pracownik() {
                             <li>ipsum</li>
                         </ul>
                     </div>
-                    <div id="pokazWiecej"><Link to="/Zadania">Pokaż więcej</Link></div>
+                    <div id="pokazWiecej"><Link to="/zadaniaPracownik">Pokaż więcej</Link></div>
                 </div >
 			</main >
 		</div >
