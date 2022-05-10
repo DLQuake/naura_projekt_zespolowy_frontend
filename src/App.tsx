@@ -21,25 +21,25 @@ import Raporty from "./components/Pracownik/Raporty";
 
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Stronaglowna />} />
-        <Route path="/kontakt" element={<Kontakt />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+	return (
+		<Router>
+			<Routes>
+				<Route path="/" element={<Stronaglowna />} />
+				<Route path="/kontakt" element={<Kontakt />} />
+				<Route path="/login" element={<Login />} />
+				<Route path="/register" element={<Register />} />
 
-        <Route path="/gospodarz" element={<Gospodarz />} />
-        <Route path="/twojekonto" element={<TwojeKonto />} />
-        <Route path="/pracownicy" element={<Pracownicy />} />
-        <Route path="/zadaniaGospodarz" element={<ZadaniaGospodarz />} />
+				<Route path="/gospodarz" element={<Gospodarz />} />
+				<Route path="/twojekonto" element={<TwojeKonto />} />
+				<Route path="/pracownicy" element={<Pracownicy />} />
+				<Route path="/zadaniaGospodarz" element={<ZadaniaGospodarz />} />
 
-        <Route path="/pracownik" element={<Pracownik />} />
-        <Route path="/zadaniaPracownik" element={<ZadaniaPracownik />} />
-        <Route path="/raporty" element={<Raporty />} />
-      </Routes>
-    </Router>
-  );
+				<Route path="/pracownik" element={<Pracownik />} />
+				<Route path="/zadaniaPracownik" element={<ZadaniaPracownik />} />
+				<Route path="/raporty" element={<Raporty />} />
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;
