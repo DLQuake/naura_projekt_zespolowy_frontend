@@ -8,10 +8,12 @@ function TwojeKonto() {
             <main id="czescglownaGospodarz">
                 <div className="twojekonto">
                     <h1>Twoje konto</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                        doloremque, quidem, quisquam doloremque.
-                    </p>
+                    <div className="twojekonto_informacje">
+                        <div className="twojekonto_informacje_nazwa">
+                            <h2>Nazwa użytkownika</h2>
+                            <p>Jan Kowalski</p>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
