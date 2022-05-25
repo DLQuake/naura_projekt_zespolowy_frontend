@@ -65,8 +65,6 @@ img {
 
 /* ! KONIEC PANELU WLASCICIELA */
 
-
-
 /* ! POCZATEK GŁOWNEJ CZESCI STRONY */
 
 #czescglownaGospodarz {
@@ -76,6 +74,7 @@ img {
   top: 40px;
   left: 610px;
   z-index: -1;
+  border-radius: 20px;
 }
 
 .opcje {
@@ -101,7 +100,10 @@ img {
   grid-area: 2 / 2 / 3 / 3;
 }
 
-.opcja1, .opcja2, .opcja3, .opcja4 {
+.opcja1,
+.opcja2,
+.opcja3,
+.opcja4 {
   background-color: #ffffff;
   width: 500px;
   height: 325px;
@@ -128,7 +130,7 @@ img {
   padding: 0;
 }
 
-#zawartoscOpcji > ul > li{
+#zawartoscOpcji > ul > li {
   margin-bottom: 20px;
 }
 
@@ -141,12 +143,9 @@ img {
 }
 /* ! KONIEC GŁOWNEJ CZESCI STRONY */
 
-
-
-
 /* ! POCZATEK EKRANU TWOJE KONTO */
 
-.twojekonto, .zadania_gospodarz, .pracownicy {
+.twojekonto {
   width: 1199px;
   height: 850px;
   position: absolute;
@@ -155,3 +154,285 @@ img {
 }
 
 /* ! KONIEC EKRANU TWOJE KONTO */
+
+/* !  POCZATEK EKRANU PRACOWNICY */
+
+.pracownicy {
+  width: 1199px;
+  height: 850px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.pracownicy_naglowek a {
+  background-color: #2db82d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.pracownicy_naglowek a:hover {
+  background-color: #1ca71c;
+}
+
+.pracownicy_tabela table {
+  width: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+.pracownicy_tabela tbody {
+  width: 100%;
+  background-color: rgba(47, 163, 72, 0.7);
+}
+
+.pracownicy_tabela tr {
+  width: 100%;
+}
+
+.pracownicy_tabela td {
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+.sort-button {
+  background-color: transparent;
+  border: none;
+
+  padding: 5px 10px;
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+
+  transition: transform 0.05s ease-out;
+}
+
+.sort-reverse {
+  transform: rotate(180deg);
+}
+
+/* !  KONIEC EKRANU PRACOWNICY */
+
+/* !  POCZATEK EKRANU DODAJ PRACOWNIKA */
+
+.dodajpracownika {
+  width: 1199px;
+  height: 850px;
+  position: absolute;
+  /* background-color: #ffffff; */
+  border-radius: 20px;
+}
+
+.dodajpracownika h1 {
+  background-color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+#dadajpracownika_formularz {
+  background-color: white;
+  width: 300px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+#dadajpracownika_formularz input[type="text"] {
+  width: 300px;
+  background-color: #efefef;
+  color: #666;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 20px;
+}
+
+#dadajpracownika_formularz input[type="text"]:focus {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+}
+
+button {
+  background-color: #2db82d;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #1ca71c;
+}
+/* !  KONIEC EKRANU DAODAJ PRACOWNIKA */
+
+/* !  POCZATEK EKRANU ZADANIA GOSPODARZ */
+
+.zadania_gospodarz {
+  width: 1199px;
+  height: 850px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.zadania_tabela {
+  padding: 20px;
+}
+
+.zadania_naglowek a {
+  background-color: #2db82d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.zadania_naglowek a:hover {
+  background-color: #1ca71c;
+}
+
+.zadania_tabela table {
+  width: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+.zadania_tabela tbody {
+  width: 100%;
+  background-color: rgba(47, 163, 72, 0.7);
+}
+
+.zadania_tabela tr {
+  width: 100%;
+}
+
+.zadania_tabela td {
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+.zadania_tabela td:nth-child(1) {
+  width: 7%;
+}
+
+.zadania_tabela td:nth-child(2) {
+  width: 50%;
+}
+
+.zadania_tabela td:nth-child(3) {
+  width: 15%;
+}
+
+.zadania_tabela td:nth-child(4) {
+  width: 15%;
+}
+/* !  KONIEC EKRANU ZADANIA GOSPODARZ */
+
+/* !  POCZATEK EKRANU DODAJ ZADANIE */
+
+.dodajzadanie {
+  width: 1199px;
+  height: 850px;
+  position: absolute;
+  /* background-color: #ffffff; */
+  border-radius: 20px;
+}
+
+.dodajzadanie h1 {
+  background-color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+#dadajzadanie_formularz {
+  background-color: white;
+  width: 300px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+#dadajzadanie_formularz input[type="text"] {
+  width: 300px;
+  background-color: #efefef;
+  color: #666;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 20px;
+}
+
+#dadajzadanie_formularz input[type="text"]:focus {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+}
+
+button {
+  background-color: #2db82d;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #1ca71c;
+}
+
+/* !  KONIEC EKRANU DAODAJ ZADANIE */
