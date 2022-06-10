@@ -153,6 +153,49 @@ img {
   border-radius: 20px;
 }
 
+#twojekonto_pom {
+  width: 1000px;
+  height: 700px;
+  background-color: #28A228;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#twojekonto_dane {
+  background-color: white;
+  width: 500px;
+  padding: 50px;
+  position: absolute;
+  top: 53.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+}
+
+#twojekonto_dane input[type="text"] {
+  width: 300px;
+  background-color: #efefef;
+  color: #666;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 20px;
+}
+
+#twojekonto_dane input[type="text"]:focus {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+}
+
 /* ! KONIEC EKRANU TWOJE KONTO */
 
 /* !  POCZATEK EKRANU PRACOWNICY */
@@ -165,12 +208,16 @@ img {
   border-radius: 20px;
 }
 
+.pracownicy_naglowek {
+  padding: 20px;
+}
+
 .pracownicy_naglowek a {
   background-color: #2db82d;
   color: #ffffff;
   text-decoration: none;
-  border-radius: 20px;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .pracownicy_naglowek a:hover {
@@ -201,22 +248,24 @@ img {
   color: black;
 }
 
-.sort-button {
-  background-color: transparent;
-  border: none;
-
-  padding: 5px 10px;
-  margin: 0;
-  line-height: 1;
-  font-size: 15px;
-  color: black;
-  cursor: pointer;
-
-  transition: transform 0.05s ease-out;
+.pracownicy_tabela td:nth-child(1) {
+  width: 7%;
 }
 
-.sort-reverse {
-  transform: rotate(180deg);
+.pracownicy_tabela td:nth-child(2) {
+  width: 20%;
+}
+
+.pracownicy_tabela td:nth-child(3) {
+  width: 20%;
+}
+
+.pracownicy_tabela td:nth-child(4) {
+  width: 20%;
+}
+
+.pracownicy_tabela td:nth-child(5) {
+  width: 20%;
 }
 
 /* !  KONIEC EKRANU PRACOWNICY */
@@ -227,20 +276,17 @@ img {
   width: 1199px;
   height: 850px;
   position: absolute;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
-.dodajpracownika h1 {
-  background-color: #ffffff;
-  width: 30%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+#dodajpracownika_pom {
+  width: 1000px;
+  height: 700px;
+  background-color: #28A228;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  border: 2px solid #000000;
 }
 
 #dadajpracownika_formularz {
@@ -248,7 +294,7 @@ img {
   width: 300px;
   padding: 50px;
   position: absolute;
-  top: 50%;
+  top: 53.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -346,11 +392,11 @@ button:hover {
 }
 
 .zadania_tabela td:nth-child(1) {
-  width: 7%;
+  width: 50%;
 }
 
 .zadania_tabela td:nth-child(2) {
-  width: 50%;
+  width: 15%;
 }
 
 .zadania_tabela td:nth-child(3) {
@@ -360,6 +406,11 @@ button:hover {
 .zadania_tabela td:nth-child(4) {
   width: 15%;
 }
+
+.zadania_tabela td:nth-child(5) {
+  width: 15%;
+}
+
 /* !  KONIEC EKRANU ZADANIA GOSPODARZ */
 
 /* !  POCZATEK EKRANU DODAJ ZADANIE */
@@ -368,20 +419,17 @@ button:hover {
   width: 1199px;
   height: 850px;
   position: absolute;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
-.dodajzadanie h1 {
-  background-color: #ffffff;
-  width: 30%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+#dodajzadanie_pom {
+  width: 1000px;
+  height: 700px;
+  background-color: #28A228;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  border: 2px solid #000000;
 }
 
 #dadajzadanie_formularz {

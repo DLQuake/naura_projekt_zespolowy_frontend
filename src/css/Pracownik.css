@@ -141,6 +141,7 @@ img {
 }
 /* ! KONIEC GŁOWNEJ CZESCI STRONY */
 
+/* ! POCZATEK EKRANU ZADANIAPRACOWNIK*/
 
 .zadania_pracownik, .raporty_pracownik {
   width: 1199px;
@@ -149,3 +150,101 @@ img {
   background-color: #ffffff;
   border-radius: 20px;
 }
+
+.zadania_pracownik_tabela {
+  padding: 20px;
+}
+
+#zadania_pracownik_naglowek a {
+  background-color: #2db82d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#zadania_pracownik_naglowek a:hover {
+  background-color: #1ca71c;
+}
+
+#zadania_pracownik_naglowek [type="text"] {
+  width: 119px;
+  background-color: #efefef;
+  color: #666;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 20px;
+}
+
+#zadania_pracownik_naglowek input[type="text"]:focus {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+}
+
+#zadania_pracownik_naglowek input[type="submit"] {
+  width: 200px;
+  background-color: #36b03c;
+  font-size: 20px;
+  color: white;
+  padding: 15px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 4em;
+}
+
+#zadania_pracownik_naglowek input[type="submit"]:focus {
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+  box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+}
+
+#zadania_pracownik_naglowek input[type="submit"]:hover {
+  background-color: #37b93d;
+}
+
+.zadania_pracownik_tabela table {
+  width: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+.zadania_pracownik_tabela tbody {
+  width: 100%;
+  background-color: rgba(47, 163, 72, 0.7);
+}
+
+.zadania_pracownik_tabela tr {
+  width: 100%;
+}
+
+.zadania_pracownik_tabela td {
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+.zadania_pracownik_tabela td:nth-child(1) {
+  width: 10%;
+}
+
+.zadania_pracownik_tabela td:nth-child(2) {
+  width: 90%;
+}
+
+/* ! KONIEC EKRANU ZADANIAPRACOWNIK*/

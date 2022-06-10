@@ -19,11 +19,6 @@ import DodajZadanie from "./components/Gospodarz/DodajZadanie";
 
 import Pracownik from "./components/Pracownik/Pracownik";
 import ZadaniaPracownik from "./components/Pracownik/ZadaniaPracownik";
-import Raporty from "./components/Pracownik/Raporty";
-
-// for testing
-import data from "./data.json";
-import task from "./task.json";
 
 function App() {
 	return (
@@ -36,15 +31,14 @@ function App() {
 
 				<Route path="/gospodarz" element={<Gospodarz />} />
 				<Route path="/twojekonto" element={<TwojeKonto />} />
-				<Route path="/pracownicy" element={<Pracownicy data={data} />} />
+				<Route path="/pracownicy" element={<Pracownicy />} />
 				<Route path="/dodajpracownika" element={<DodajPracownika />} />
-				<Route path="/zadaniaGospodarz" element={<ZadaniaGospodarz data={task}/>} />
+				<Route path="/zadaniaGospodarz" element={<ZadaniaGospodarz/>} />
 				<Route path="/dodajzadanie" element={<DodajZadanie />} />
 
 
 				<Route path="/pracownik" element={<Pracownik />} />
 				<Route path="/zadaniaPracownik" element={<ZadaniaPracownik />} />
-				<Route path="/raporty" element={<Raporty />} />
 			</Routes>
 		</Router>
 	);

@@ -16,7 +16,6 @@ function AsidePracownik() {
                         <li><Link to="/">Wyloguj się</Link></li>
                         <li><Link to="/Pracownik">Główny panel</Link></li>
                         <li><Link to="/ZadaniaPracownik">Zadania</Link></li>
-                        <li><Link to="/Raporty">Raporty</Link></li>
                     </ul>
                 </div>
             </div>
